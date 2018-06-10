@@ -1,55 +1,45 @@
-# EuroScipy 2016 Pandas Tutorial
+# Tutorial de Pandas EuroScipy 2016 
 
-This repository contains the material (notebooks, data) for the pandas tutorial at EuroScipy 2016. For previous versions of the tutorial (EuroScipy 2015), see the [releases page](https://github.com/jorisvandenbossche/pandas-tutorial/releases).
+Este repositorio contiene material (notebooks, data) correspondiente al elaborado por Joris Van den Bossche para el EuroScipy 2016, traducido al español. 
 
-## Requirements to run this tutorial
+## Requerimientos para ejecutar este material
 
-To follow this tutorial you need to have the following packages installed:
+Es necesario instalar los siguientes paquetes para ejecutar el material:
 
-- Python version 2.6-2.7 or 3.3-3.5
-- `pandas` version 0.18.0 or later: http://pandas.pydata.org/ (previous versions will work for most examples as well)
-- `numpy` version 1.7 or later: http://www.numpy.org/
-- `matplotlib` version 1.3 or later: http://matplotlib.org/
-- `ipython` version 3.x with notebook support, or `ipython 4.x` combined with `jupyter`: http://ipython.org
-- `seaborn` (this is used for some plotting, but not necessary to follow the tutorial): http://stanford.edu/~mwaskom/software/seaborn/
+- Python version 2.6-2.7 o 3.3-3.5
+- `pandas` version 0.18.0 o posterior: http://pandas.pydata.org/ 
+- `numpy` version 1.7 o posterior: http://www.numpy.org/
+- `matplotlib` version 1.3 o posterior: http://matplotlib.org/
+- `ipython` version 3.x con soporte para notebooks, o `ipython 4.x` combinado con `jupyter`: http://ipython.org
+- `seaborn` (Usado para graficación, pero no necesario para seguir el tutorial): http://stanford.edu/~mwaskom/software/seaborn/
 
-I recommend to use the [conda](http://conda.pydata.org/docs/intro.html) environment manager to install all the requirements 
-(you can install [miniconda](http://conda.pydata.org/miniconda.html) or install the (very large) Anaconda software
-distribution, found at http://continuum.io/downloads).
+Se recomienda el uso del administrador de ambientes [conda](http://conda.pydata.org/docs/intro.html) para instalar los requerimientos
+([miniconda](http://conda.pydata.org/miniconda.html) es suficiente, o se puede instalar el paquete entero de Anaconda, encontrado en http://continuum.io/downloads).
 
-Once this is installed, the following command will install all required packages in your Python environment:
+Una vez instalado, el siguiente comando es suficiente para recuperar e instalar los paquetes necesarios para seguir este tutorial:
 ```
 conda install pandas jupyter seaborn
 ```
 
-But of course, using another distribution (e.g. Enthought Canopy) or pip is good as well, as long
-as you have the above packages installed.
+## Descarga de Materiales
 
+Los materiales en este repositorio pueden recuperarse por medio de git
 
-## Downloading the tutorial materials
+    git clone https://github.com/fireblend-clases/pandas-tutorial.git
 
-If you have git installed, you can get the material in this tutorial by cloning this repo:
+Dos data sets no están incluidos en el repositorio pero pueden ser recuperados de las siguientes direcciones: [`titles.csv`](https://drive.google.com/open?id=0B3G70MlBnCgKajNMa1pfSzN6Q3M) y [`cast.csv`](https://drive.google.com/open?id=0B3G70MlBnCgKal9UYTJSR2ZhSW8) y agregados al directorio `/data` en el repositorio.
 
-    git clone https://github.com/jorisvandenbossche/pandas-tutorial.git
-
-As an alternative, you can download it as a zip file:
-https://github.com/jorisvandenbossche/pandas-tutorial/archive/master.zip.
-I will probably make some changes until the start of the tutorial, so best to download
-the latest version then (or do a `git pull` if you are using git).
-
-Two data files are not included in the repo, you can download them from: [`titles.csv`](https://drive.google.com/open?id=0B3G70MlBnCgKajNMa1pfSzN6Q3M) and [`cast.csv`](https://drive.google.com/open?id=0B3G70MlBnCgKal9UYTJSR2ZhSW8) and put them in the `/data` folder.
-
-## Content
+## Contenido en NBViewer
 
 To view the content on nbviewer:
 
-- [Index](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/Index.ipynb)
-- [01 - Introduction](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/01%20-%20Introduction.ipynb)
-- [02 - Data structures](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/02%20-%20Data%20structures.ipynb)
-- [03 - Indexing and selecting data](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/03%20-%20Indexing%20and%20selecting%20data.ipynb)
-- [03b - Some more advanced indexing](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/03b%20-%20Some%20more%20advanced%20indexing.ipynb)
-- [04 - Groupby operations](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/04%20-%20Groupby%20operations.ipynb)
-- [05 - Time series data](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/05%20-%20Time%20series%20data.ipynb)
-- [06 - Reshaping data](http://nbviewer.ipython.org/github/jorisvandenbossche/pandas-tutorial/blob/master/06%20-%20Reshaping%20data.ipynb)
+- [Indice](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/Index.ipynb)
+- [01 - Introduccion](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/01%20-%20Introduccion.ipynb)
+- [02 - Estructuras de Datos](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/02%20-%20Estructuras%20de%20Datos.ipynb)
+- [03 - Indexacion y Seleccion](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/03%20-%20Indexacion%20y%20Seleccion.ipynb)
+- [03b - Indexacion Avanzada](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/03b%20-%20Indexacion%20Avanzada.ipynb)
+- [04 - Operaciones GroupBy](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/04%20-%20Operaciones%20GroupBy.ipynb)
+- [05 - Series Temporales](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/05%20-%2020Series%20Temporales.ipynb)
+- [06 - Modificacion de Datos](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/06%20-%20Modificacion%20de%20datos.ipynb)
 
 
