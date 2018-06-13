@@ -35,6 +35,7 @@ To view the content on nbviewer:
 
 - [Indice](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/Index.ipynb)
 - [01 - Introduccion](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/01%20-%20Introduccion.ipynb)
+- [01 - Introduccion (Solucionado)](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/solved%20-%2001%20-%20Introduccion.ipynb)
 - [02 - Estructuras de Datos](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/02%20-%20Estructuras%20de%20Datos.ipynb)
 - [03 - Indexacion y Seleccion](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/03%20-%20Indexacion%20y%20Seleccion.ipynb)
 - [03b - Indexacion Avanzada](http://nbviewer.ipython.org/github/fireblend-clases/pandas-tutorial/blob/master/03b%20-%20Indexacion%20Avanzada.ipynb)
